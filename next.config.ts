@@ -1,3 +1,17 @@
 import type { NextConfig } from "next";
-const nextConfig: NextConfig = { images: { remotePatterns: [{ protocol:"https", hostname:"res.cloudinary.com" }] } };
+
+const nextConfig: NextConfig = {
+  output: "export",
+
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+      },
+    ],
+  },
+};
+
 export default nextConfig;
