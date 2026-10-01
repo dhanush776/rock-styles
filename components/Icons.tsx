@@ -1,0 +1,13 @@
+import type {SVGProps} from "react";
+const b:SVGProps<SVGSVGElement>={viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:1.8,strokeLinecap:"round",strokeLinejoin:"round","aria-hidden":true};
+export const SearchIcon=()=> <svg {...b}><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>;
+export const UserIcon=()=> <svg {...b}><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg>;
+export const HeartIcon=()=> <svg {...b}><path d="M12 21s-8-5.2-8-11a4.6 4.6 0 0 1 8-3 4.6 4.6 0 0 1 8 3c0 5.8-8 11-8 11Z"/></svg>;
+export const BagIcon=()=> <svg {...b}><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>;
+export const HomeIcon=()=> <svg {...b}><path d="M4 11 12 4l8 7v9H4v-9Z"/><path d="M10 20v-6h4v6"/></svg>;
+export const ShopIcon=()=> <svg {...b}><path d="M3 9h18l-1.5 11h-15L3 9Z"/><path d="M8 9V7a4 4 0 0 1 8 0v2"/></svg>;
+export const OrdersIcon=()=> <svg {...b}><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>;
+export const XIcon=()=> <svg {...b}><path d="m6 6 12 12M18 6 6 18"/></svg>;
+export const PlusIcon=()=> <svg {...b}><path d="M12 5v14M5 12h14"/></svg>;
+export const MinusIcon=()=> <svg {...b}><path d="M5 12h14"/></svg>;
+export const CheckIcon=()=> <svg {...b}><path d="m5 12 4 4L19 6"/></svg>;

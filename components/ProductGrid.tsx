@@ -1,0 +1,1 @@
+import ProductCard from "./ProductCard";import type{Product}from"@/types";export default function ProductGrid({products}:{products:Product[]}){if(!products.length)return <div className="empty">No products found.</div>;return <div className="pgrid">{products.map(p=><ProductCard key={p.id} product={p}/>)}</div>}
